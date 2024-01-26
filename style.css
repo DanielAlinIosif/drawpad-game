@@ -19,3 +19,10 @@ body {
   flex-wrap: wrap;
   max-width: 400px;
 }
+
+.square {
+  width: 16 px;
+  height: 16 px;
+  background-color: #1e1e1e;
+  margin: 2px;
+}
