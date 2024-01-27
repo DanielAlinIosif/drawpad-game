@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #111;
+  background-color: #ebe3e3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +23,6 @@ body {
 .square {
   width: 16 px;
   height: 16 px;
-  background-color: #272525;
+  background-color: #141414;
   margin: 2px;
 }
