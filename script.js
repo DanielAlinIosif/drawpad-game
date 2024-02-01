@@ -15,11 +15,12 @@ for (let i = 0; i < SQUARE_NUMBER; i++) {
 
 function setColor(element) {
     element.style.backgroundColor = getRandomColor();
-    element.style.boxshadow = getRandomColor();
+    element.style.boxshadow = '0 0 2px ${color}, 0 0 10px ${color}';
 }
 
 function removeColor(element) {
     element.style.backgroundColor = "#1e1e1e";
+    element.style.boxShadow = '0 0 2px #000'
 }
 
 function getRandomColor() {
