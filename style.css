@@ -30,12 +30,13 @@ body {
 .square {
   width: 16px;
   height: 16px;
-  background-color: #1e1e1e;
+  background-color: #080808;
   margin: 2px;
-  transition: 2s ease-in;
+  transition: 2s ease-in-out;
   box-shadow: 00 2px 2px black;
 }
 
 .square:hover {
   transition-duration: 0s;
+  transition-timing-function: cubic-bezier(2 2 2 2);
 }
