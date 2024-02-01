@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #ebe3e3;
+  background-color: #413d3d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,4 +25,17 @@ body {
   height: 16 px;
   background-color: #141414;
   margin: 2px;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  background-color: #1e1e1e;
+  margin: 2px;
+  transition: 2s ease-in;
+  box-shadow: 00 2px 2px black;
+}
+
+.square:hover {
+  transition-duration: 0s;
 }
